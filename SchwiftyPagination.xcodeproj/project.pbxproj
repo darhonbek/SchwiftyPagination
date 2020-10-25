@@ -15,8 +15,9 @@
 		845F8AA52545333100FB1E9B /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AA22545333100FB1E9B /* CharactersViewController.swift */; };
 		845F8AA62545333100FB1E9B /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AA32545333100FB1E9B /* CharacterCell.swift */; };
 		845F8AA72545333100FB1E9B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AA42545333100FB1E9B /* CharacterViewModel.swift */; };
-		845F8AAC2545336900FB1E9B /* Specie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AAA2545336900FB1E9B /* Specie.swift */; };
-		845F8AAD2545336900FB1E9B /* RickService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AAB2545336900FB1E9B /* RickService.swift */; };
+		845F8AAC2545336900FB1E9B /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AAA2545336900FB1E9B /* CharacterModel.swift */; };
+		845F8AAD2545336900FB1E9B /* CharactersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AAB2545336900FB1E9B /* CharactersService.swift */; };
+		845F8AB52545347000FB1E9B /* CharacterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AB42545347000FB1E9B /* CharacterDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		845F8AA22545333100FB1E9B /* CharactersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		845F8AA32545333100FB1E9B /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		845F8AA42545333100FB1E9B /* CharacterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
-		845F8AAA2545336900FB1E9B /* Specie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specie.swift; sourceTree = "<group>"; };
-		845F8AAB2545336900FB1E9B /* RickService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RickService.swift; sourceTree = "<group>"; };
+		845F8AAA2545336900FB1E9B /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		845F8AAB2545336900FB1E9B /* CharactersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersService.swift; sourceTree = "<group>"; };
+		845F8AB42545347000FB1E9B /* CharacterDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +89,9 @@
 		845F8AA92545335500FB1E9B /* CharactersService */ = {
 			isa = PBXGroup;
 			children = (
-				845F8AAB2545336900FB1E9B /* RickService.swift */,
-				845F8AAA2545336900FB1E9B /* Specie.swift */,
+				845F8AAB2545336900FB1E9B /* CharactersService.swift */,
+				845F8AAA2545336900FB1E9B /* CharacterModel.swift */,
+				845F8AB42545347000FB1E9B /* CharacterDTO.swift */,
 			);
 			path = CharactersService;
 			sourceTree = "<group>";
@@ -174,11 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				845F8AA62545333100FB1E9B /* CharacterCell.swift in Sources */,
+				845F8AB52545347000FB1E9B /* CharacterDTO.swift in Sources */,
 				845F8AA52545333100FB1E9B /* CharactersViewController.swift in Sources */,
 				845F8A8D254532F300FB1E9B /* AppDelegate.swift in Sources */,
 				845F8AA72545333100FB1E9B /* CharacterViewModel.swift in Sources */,
-				845F8AAC2545336900FB1E9B /* Specie.swift in Sources */,
-				845F8AAD2545336900FB1E9B /* RickService.swift in Sources */,
+				845F8AAC2545336900FB1E9B /* CharacterModel.swift in Sources */,
+				845F8AAD2545336900FB1E9B /* CharactersService.swift in Sources */,
 				845F8A8F254532F300FB1E9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

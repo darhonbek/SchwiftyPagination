@@ -8,11 +8,11 @@
 import Foundation
 
 protocol CharacterListViewModelProtocol: AnyObject {
-    var characters: [Specie] { get set }
+    var characters: [CharacterModel] { get set }
 }
 
 class CharacterListViewModel: CharacterListViewModelProtocol {
-    var characters: [Specie] {
+    var characters: [CharacterModel] {
         get {
             // ...
             return []
@@ -23,7 +23,7 @@ class CharacterListViewModel: CharacterListViewModelProtocol {
         }
     }
 
-    init(_ characterModel: [Specie]) {
+    init(_ characterModel: [CharacterModel]) {
         characters = characterModel
     }
 }
@@ -37,7 +37,7 @@ class CharacterCellViewModel: CharacterCellViewModelProtocol {
     let name: String
     let specie: String
 
-    init(_ character: Specie) {
+    init(_ character: CharacterModel) {
         name = character.name
         specie = character.specie
     }

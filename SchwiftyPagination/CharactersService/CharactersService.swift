@@ -7,17 +7,6 @@
 
 import Foundation
 
-// Service layer
-
-struct RMCharacterDTO: Decodable {
-    let name: String
-    let species: String
-}
-
-struct RMCharactersDTO: Decodable {
-    let results: [RMCharacterDTO]
-}
-
 protocol RickServiceProtocol {
     func getCharacters(urlString: String)
 }
@@ -36,7 +25,7 @@ class RickService: RickServiceProtocol {
 
             do {
                 let decoder = JSONDecoder()
-                let characters = try decoder.decode(RMCharactersDTO.self, from: data)
+                let characters = try decoder.decode(CharactersDTO.self, from: data)
 
                 characters.results.forEach {
                     print($0.name)
