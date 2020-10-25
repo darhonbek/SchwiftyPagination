@@ -21,7 +21,7 @@ class CharacterCell: UITableViewCell {
     }
 
     private var nameLabel: UILabel = UILabel()
-    private var specieLabel: UILabel = UILabel()
+    private var specieLabel: UILabel = UILabel() // TODO: add specie label
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)

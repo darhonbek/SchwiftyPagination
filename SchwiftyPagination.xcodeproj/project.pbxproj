@@ -18,6 +18,8 @@
 		845F8AAC2545336900FB1E9B /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AAA2545336900FB1E9B /* CharacterModel.swift */; };
 		845F8AAD2545336900FB1E9B /* CharactersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AAB2545336900FB1E9B /* CharactersService.swift */; };
 		845F8AB52545347000FB1E9B /* CharacterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AB42545347000FB1E9B /* CharacterDTO.swift */; };
+		845F8AB92545354700FB1E9B /* CharactersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8AB82545354700FB1E9B /* CharactersProvider.swift */; };
+		845F8ABC2545355C00FB1E9B /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F8ABB2545355C00FB1E9B /* CharactersRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		845F8AAA2545336900FB1E9B /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		845F8AAB2545336900FB1E9B /* CharactersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersService.swift; sourceTree = "<group>"; };
 		845F8AB42545347000FB1E9B /* CharacterDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDTO.swift; sourceTree = "<group>"; };
+		845F8AB82545354700FB1E9B /* CharactersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersProvider.swift; sourceTree = "<group>"; };
+		845F8ABB2545355C00FB1E9B /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +93,11 @@
 		845F8AA92545335500FB1E9B /* CharactersService */ = {
 			isa = PBXGroup;
 			children = (
-				845F8AAB2545336900FB1E9B /* CharactersService.swift */,
-				845F8AAA2545336900FB1E9B /* CharacterModel.swift */,
 				845F8AB42545347000FB1E9B /* CharacterDTO.swift */,
+				845F8AAA2545336900FB1E9B /* CharacterModel.swift */,
+				845F8AAB2545336900FB1E9B /* CharactersService.swift */,
+				845F8AB82545354700FB1E9B /* CharactersProvider.swift */,
+				845F8ABB2545355C00FB1E9B /* CharactersRepository.swift */,
 			);
 			path = CharactersService;
 			sourceTree = "<group>";
@@ -177,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				845F8AA62545333100FB1E9B /* CharacterCell.swift in Sources */,
+				845F8ABC2545355C00FB1E9B /* CharactersRepository.swift in Sources */,
 				845F8AB52545347000FB1E9B /* CharacterDTO.swift in Sources */,
 				845F8AA52545333100FB1E9B /* CharactersViewController.swift in Sources */,
 				845F8A8D254532F300FB1E9B /* AppDelegate.swift in Sources */,
+				845F8AB92545354700FB1E9B /* CharactersProvider.swift in Sources */,
 				845F8AA72545333100FB1E9B /* CharacterViewModel.swift in Sources */,
 				845F8AAC2545336900FB1E9B /* CharacterModel.swift in Sources */,
 				845F8AAD2545336900FB1E9B /* CharactersService.swift in Sources */,

@@ -7,7 +7,7 @@
 
 struct CharacterDTO: Decodable {
     let name: String
-    let species: String
+    let specie: String
 }
 
 struct CharactersDTO: Decodable {
