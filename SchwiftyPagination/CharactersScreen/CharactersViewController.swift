@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CharactersViewController.swift
 //  SchwiftyPagination
 //
 //  Created by Darkhonbek Mamataliev on 10/21/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class CharactersViewController: UITableViewController {
     var viewModel: CharacterListViewModelProtocol? {
         didSet {
             // update ui
@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundColor = .yellow
         // Do any additional setup after loading the view.
     }
 
@@ -32,7 +33,7 @@ class ViewController: UITableViewController {
 
 // MARK: - TableViewDataSource
 
-extension ViewController {
+extension CharactersViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel?.characters.count ?? 0
     }
